@@ -31,7 +31,7 @@ const target = document.getElementById("target");
 
 //タイトル
 let title = document.createElement("div");
-title.classList.add("col-12","text-center","text-danger","p-3","container");
+title.classList.add("col-10","text-center","text-danger","p-3","container");
 let mainTitle = document.createElement("h1");
 mainTitle.innerHTML = "Japan starting member against France";
 subTitle = document.createElement("h3");
@@ -113,7 +113,7 @@ function slideJump(input){
     let nextElemnt = playerList[input];
     let animationType = index < input ? "right" : "left";
 
-　　//関数呼び出し
+　  //関数呼び出し
     animationMain(currentElement,nextElemnt,animationType,input);
 }
 
