@@ -1,0 +1,23 @@
+.imgFit {
+    object-fit: contain;
+    width: 100%;   
+}
+
+.deplete-animation{
+    animation: deplete 0.8s linear forwards;
+}
+
+.expand-animation{
+    animation: deplete 0.8s linear reverse forwards;
+}
+
+@keyframes  deplete {
+    0%{
+        width: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 0%;
+        opacity: 0;
+    } 
+}
