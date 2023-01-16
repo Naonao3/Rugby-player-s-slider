@@ -91,7 +91,7 @@ playerImg.append(sliderShow);
 //ボタン作成
 for(let i=0; i < playerList.length; i++){
     let button = document.createElement("button");
-    button.classList.add("btn","bg-warning","m-2","col-3","bg-primary","align-items-center");
+    button.classList.add("btn","bg-warning","m-2","col-3","align-items-center");
     button.innerHTML = (i+1).toString();
     //ボタンス押したときのイベント作成
     button.addEventListener("click",function(){
