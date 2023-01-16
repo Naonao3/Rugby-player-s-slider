@@ -10,7 +10,7 @@ class Player{
 }
 
 let playerList = [
-    new Player(1,"Keita Inagaki",186,116,44,"https://the-ans.jp/wp-content/uploads/2019/10/20191025_inagaki_gc2-650x433.jpg"),
+    new Player(1,"Keita Inagaki",186,116,44,"https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/mukaifumiya/00200391/top_image.jpeg?pri=l&w=800&h=450&order=c2r&cx=0&cy=0&cw=1920&ch=1080&exp=10800"),
     new Player(2,"Atsushi Sakate",180,104,32,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/atsushi_sakate/atsushi_sakate_220625_04.jpg"),
     new Player(3,"Jiwon Gu",184,122,20,"https://catch-up-net.com/wp-content/uploads/2019/10/11a0b61e2b435cedc2bf0f7d6283a420.jpg"),
     new Player(4,"Warner Dearns",201,117,6,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/warner_dearns/warner_dearns_220709_01.jpg"),
@@ -24,7 +24,7 @@ let playerList = [
     new Player(12,"Ryoto Nakamura",182,92,32,"https://e2.365dm.com/18/11/2048x1152/skysports-ryoto-nakamura-japan_4492129.jpg"),
     new Player(13,"Shogo Nakano",186,98,5,"https://www.suntory.co.jp/culture-sports/sungoliath/member/img/play/nakano_s.jpg"),
     new Player(14,"Dylan Riley",187,102,9,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/dylan_riely/dylan_riely_220625_03.jpg"),
-    new Player(15,"Ryohei Yamanaka",188,98,26,"https://img.kyodonews.net/english/public/images/posts/cdd4801568280037d79417a096ac4a38/photo_l.jpg")
+    new Player(15,"Ryohei Yamanaka",188,98,26,"https://static.thedigestweb.com/v=1586772496/files/topics/13478_ext_04_0_L.jpg")
 ];
 
 const target = document.getElementById("target");

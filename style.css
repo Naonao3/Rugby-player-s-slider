@@ -3,6 +3,9 @@
     width: 100%;
 }
 
+.bg-color{
+    background: #00CC00;
+}
 .deplete-animation{
     animation: deplete 0.8s linear forwards;
 }
