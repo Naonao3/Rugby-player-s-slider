@@ -31,7 +31,7 @@ const target = document.getElementById("target");
 
 //タイトル
 let title = document.createElement("div");
-title.classList.add("col-10","text-center","text-danger","p-3","container");
+title.classList.add("col-10","text-center","text-danger","p-5","container");
 let mainTitle = document.createElement("h1");
 mainTitle.innerHTML = "Japan starting member against France";
 subTitle = document.createElement("h3");
