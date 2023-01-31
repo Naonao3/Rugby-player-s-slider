@@ -6,3 +6,4 @@ Recursionのproject2課題。
 ## URL
 このURLからアプリケーションを見ることができます。
 https://naonao3.github.io/Rugby_player_slider/
+*画像の読み込みに時間がかかる時があります。何度か繰り返し同じボタンを押すと、表示されやすくなります。
