@@ -19,12 +19,12 @@ let playerList = [
     new Player(7,"Pieter Labuschagne",189,106,14,"./img/7_Labuschagne.png"),
     new Player(8,"Kazuki Himeno",187,108,24,"./img/8_Himeno.jpg"),
     new Player(9,"Naoto Saito",165,73,10,"./img/9_Saito.jpg"),
-    new Player(10,"Seungsin Lee",176,85,5,"./img/10_Lee.webp"),
+    new Player(10,"Seungsin Lee",176,85,5,"./img/10_Lee.jpg"),
     new Player(11,"Siosaia Fifita",187,105,11,"./img/11_Fifita.jpg"),
     new Player(12,"Ryoto Nakamura",182,92,32,"./img/12_Nakamura.jpg"),
     new Player(13,"Shogo Nakano",186,98,5,"./img/13_Nakano.jpg"),
     new Player(14,"Dylan Riley",187,102,9,"./img/14_Riley.jpg"),
-    new Player(15,"Ryohei Yamanaka",188,98,26,"./img/15_Yamanaka.webp")
+    new Player(15,"Ryohei Yamanaka",188,98,26,"./img/15_Yamanaka.jpg")
 ];
 
 const target = document.getElementById("target");
@@ -53,7 +53,7 @@ let leftDiv = document.createElement("div");
 leftDiv.classList.add("col-md-7","col-12","p-2","d-flex","justify-content-center","align-items-center");
 let playerImg = document.createElement("img");
 playerImg.classList.add("imgFit","p-2");
-let defaultImg = "./img/default.webp";
+let defaultImg = "./img/default.jpg";
 playerImg.src = defaultImg;
 
 leftDiv.append(playerImg);
