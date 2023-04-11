@@ -10,21 +10,21 @@ class Player{
 }
 
 let playerList = [
-    new Player(1,"Keita Inagaki",186,116,44,"https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/mukaifumiya/00200391/top_image.jpeg?pri=l&w=800&h=450&order=c2r&cx=0&cy=0&cw=1920&ch=1080&exp=10800"),
-    new Player(2,"Atsushi Sakate",180,104,32,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/atsushi_sakate/atsushi_sakate_220625_04.jpg"),
-    new Player(3,"Jiwon Gu",184,122,20,"https://catch-up-net.com/wp-content/uploads/2019/10/11a0b61e2b435cedc2bf0f7d6283a420.jpg"),
-    new Player(4,"Warner Dearns",201,117,6,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/warner_dearns/warner_dearns_220709_01.jpg"),
-    new Player(5,"Jack Cornelsen",195,110,11,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/jack_cornelsen/jack_cornelsen_220625_02.jpg"),
-    new Player(6,"Michael Leitch",189,113,77,"https://i.dailymail.co.uk/1s/2019/10/13/14/19655876-0-image-m-19_1570973888717.jpg"),
-    new Player(7,"Pieter Labuschagne",189,106,14,"https://www.sarugbymag.co.za/wp-content/uploads/2019/09/Screen-Shot-2019-09-26-at-9.03.30-AM.png"),
-    new Player(8,"Kazuki Himeno",187,108,24,"https://d3gbf3ykm8gp5c.cloudfront.net/content/uploads/2020/10/12095559/Kazuki-Himeno-for-Japan-in-World-Cup-PA.jpg"),
-    new Player(9,"Naoto Saito",165,73,10,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/naoto_saito/naoto_saito_220625_03.jpg"),
-    new Player(10,"Seungsin Lee",176,85,5,"https://p.potaufeu.asahi.com/33d2-p/picture/26940759/8f9c29e9d1c938f8c637b54f8e967a1a.jpg"),
-    new Player(11,"Siosaia Fifita",187,105,11,"https://m.psecn.photoshelter.com/img-get/I00002cXqTsF71Co/s/500/aflo-162390950.jpg"),
-    new Player(12,"Ryoto Nakamura",182,92,32,"https://e2.365dm.com/18/11/2048x1152/skysports-ryoto-nakamura-japan_4492129.jpg"),
-    new Player(13,"Shogo Nakano",186,98,5,"https://www.suntory.co.jp/culture-sports/sungoliath/member/img/play/nakano_s.jpg"),
-    new Player(14,"Dylan Riley",187,102,9,"https://www.jsports.co.jp/img/web/page/rugby/japan/team/dylan_riely/dylan_riely_220625_03.jpg"),
-    new Player(15,"Ryohei Yamanaka",188,98,26,"https://static.thedigestweb.com/v=1586772496/files/topics/13478_ext_04_0_L.jpg")
+    new Player(1,"Keita Inagaki",186,116,44,"./img/1_Inagaki.jpeg"),
+    new Player(2,"Atsushi Sakate",180,104,32,"./img/2_Sakate.jpg"),
+    new Player(3,"Jiwon Gu",184,122,20,"./img/3_Gu.jpg"),
+    new Player(4,"Warner Dearns",201,117,6,"./img/4_Dears.jpg"),
+    new Player(5,"Jack Cornelsen",195,110,11,"./img/5_Cornelsen.jpg"),
+    new Player(6,"Michael Leitch",189,113,77,"./img/6_Leitch.jpg"),
+    new Player(7,"Pieter Labuschagne",189,106,14,"./img/7_Labuschagne.png"),
+    new Player(8,"Kazuki Himeno",187,108,24,"./img/8_Himeno.jpg"),
+    new Player(9,"Naoto Saito",165,73,10,"./img/9_Saito.jpg"),
+    new Player(10,"Seungsin Lee",176,85,5,"./img/10_Lee.webp"),
+    new Player(11,"Siosaia Fifita",187,105,11,"./img/11_Fifita.jpg"),
+    new Player(12,"Ryoto Nakamura",182,92,32,"./img/12_Nakamura.jpg"),
+    new Player(13,"Shogo Nakano",186,98,5,"./img/13_Nakano.jpg"),
+    new Player(14,"Dylan Riley",187,102,9,"./img/14_Riley.jpg"),
+    new Player(15,"Ryohei Yamanaka",188,98,26,"./img/15_Yamanaka.webp")
 ];
 
 const target = document.getElementById("target");
@@ -53,7 +53,7 @@ let leftDiv = document.createElement("div");
 leftDiv.classList.add("col-md-7","col-12","p-2","d-flex","justify-content-center","align-items-center");
 let playerImg = document.createElement("img");
 playerImg.classList.add("imgFit","p-2");
-let defaultImg = "https://i.guim.co.uk/img/media/78b4427f88ba8c5ba3c046f03950cdad738a9e00/0_20_4680_2808/master/4680.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2b965aec8383bd1ace9af9b2786618ba"
+let defaultImg = "./img/default.webp";
 playerImg.src = defaultImg;
 
 leftDiv.append(playerImg);
