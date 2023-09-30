@@ -5,5 +5,5 @@
 ボタンを押す際に一つ前に押した番号より大きい数字の番号を押せば画像が右にスライド、小さい数字の番号を押せば左にスライドするアニメーションを実装しています。
 ## URL
 このURLからアプリケーションを見ることができます。</br>
-https://naonao3.github.io/Rugby_player_slider/</br>
+https://naonao3.github.io/Rugby-player-slider/</br>
 
