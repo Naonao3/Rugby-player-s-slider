@@ -1,4 +1,4 @@
-# Rugby_player_slider
+# Rugby_Player_Slider
 
 ## 概要
 画面右側にあるボタンを押すことで、各ポジションごとの選手の画像及び身長などの情報を表示することができます。</br>
