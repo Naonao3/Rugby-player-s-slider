@@ -7,3 +7,4 @@
 このURLからアプリケーションを見ることができます。</br>
 https://naonao3.github.io/Rugby-player-slider/</br>
 
+<img width="1123" alt="スクリーンショット 2023-10-12 145207" src="https://github.com/Naonao3/Rugby-player-slider/assets/97473345/f242d554-cf45-4813-8066-7af80aceb7af">
