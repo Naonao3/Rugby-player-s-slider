@@ -1,4 +1,4 @@
-# Rugby_Player_Slider
+# Rugby Player Slider
 
 ## 概要
 ラグビー日本代表のメンバーを表示するウェブアプリケーションです。</br>
